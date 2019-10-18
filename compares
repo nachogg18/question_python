@@ -1,0 +1,30 @@
+catalog/app/utils                                                         pricing_python/utils
+        /config.py                              ------------>                         /config.py                   se modifica def get_server_port():
+        /errors.py                              ------------>                         /errors.py                   SIN CAMBIOS
+        /json_serializer.py                     ------------>                         /json_serializer.py          SIN CAMBIOS
+        /mongo.py                               ------------>                         /mongo.py                    9 db = client['catalog']
+                                                                                                                   10 articles = db.articles
+        /schema_validator.py                    ------------>                         /schema_validator.py         SIN CAMBIOS
+        /security.py                            ------------>                         /security.py                 SIN CAMBIOS importantes
+
+catalog\app\gateways                                                       pricing_python\rabbit
+         \rabbit_service.py                     ------------>                          \rabbit_service.py          linea70-linea69
+                                                                                                                   linea74-linea78  
+                                                                                                                   linea98-linea79
+                                                                                                                   linea96-linea84
+                                                                                                                   linea119-linea99
+                                                                                                                   VER FINAL DEL ARCHIVO
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+catalog/app/domain/articles                     ------------>             pricing_python/prices
+        /crud_service.py                                                        /crud_service.py                  Muchos cambios
+        
+                                                                                                  
+                                                                                                
+                                                
+                                                                                                                   
+                                                                  
+
+                                                                                                                   
+                                                                                                           
